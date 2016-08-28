@@ -1,0 +1,101 @@
+<resources>
+
+    //===============================手机状态栏=======================================
+    <style name="AppTheme" parent="Theme.AppCompat.Light.DarkActionBar">
+        <!--<item name="colorPrimary">@color/colorPrimary</item>
+        <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
+        <item name="colorAccent">@color/colorAccent</item>-->
+    </style>
+
+    //===============================底部导航栏=======================================
+    <style name="menu_text_style">
+        <item name="android:layout_width">48dp</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_centerInParent">true</item>
+        <item name="android:layout_weight">1</item>
+        <item name="android:textColor">@drawable/menu_text_bg</item>
+        <item name="android:textSize">10sp</item>
+        <item name="android:gravity">center</item>
+        <item name="android:layout_marginTop">5dp</item>
+    </style>
+
+    //===============================顶部标题栏=======================================
+    <style name="topbar_layout_style">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">48dp</item>
+        <item name="android:background">@color/main_style_normal_color</item>
+    </style>
+
+    //===============================顶部分割View=======================================
+    <style name="topbar_divider_view_style">
+        <item name="android:layout_width">0.05dp</item>
+        <item name="android:layout_height">match_parent</item>
+        <item name="android:layout_marginBottom">4dp</item>
+        <item name="android:layout_marginTop">4dp</item>
+        <item name="android:background">@color/divider</item>
+    </style>
+
+    //===============================顶部标题=======================================
+    <style name="topbar_text_style">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_centerInParent">true</item>
+        <item name="android:layout_centerVertical">true</item>
+        <item name="android:textColor">@color/white</item>
+        <item name="android:textSize">20sp</item>
+    </style>
+
+    //===============================价格和销量=======================================
+    <style name="price_and_sales_title_text_style">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:textSize">15sp</item>
+    </style>
+
+    <style name="price_and_sales_text_style">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:textSize">15sp</item>
+        <item name="android:textColor">@color/red</item>
+    </style>
+
+    //===============================价格和销量=======================================
+    <style name="btn_style">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:textSize">15sp</item>
+        <item name="android:textColor">@color/white</item>
+        <item name="android:background">@drawable/btn_bg</item>
+    </style>
+
+    //====================== loading dialog style=======================================
+    <style name="loading_dialog_style" parent="android:Theme.Dialog">
+        <!-- Dialog的windowFrame框为无 -->
+        <item name="android:windowFrame">@null</item>
+        <!-- 设置dialog的背景 -->
+        <item name="android:windowBackground">@android:color/transparent</item>
+        <!-- 是否显示title -->
+        <item name="android:windowNoTitle">true</item>
+        <!-- 是否半透明 -->
+        <item name="android:windowIsTranslucent">true</item>
+        <!-- 是否浮现在activity之上 -->
+        <item name="android:windowIsFloating">true</item>
+        <!-- 也是个drawable，定义contentoverlay的背景 -->
+        <item name="android:windowContentOverlay">@null</item>
+        <!-- 背景是否模糊显示 -->
+        <item name="android:backgroundDimEnabled">false</item>
+    </style>
+
+    //===============================用户中心的按钮=======================================
+    <style name="ucenter_btn_style">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:textSize">15sp</item>
+        <item name="android:textColor">@color/red</item>
+        <item name="android:background">@drawable/btn_bg2</item>
+        <item name="android:layout_margin">0.01dp</item>
+        <item name="android:paddingLeft">7dp</item>
+        <item name="android:gravity">left|center_vertical</item>
+    </style>
+
+</resources>

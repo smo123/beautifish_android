@@ -1,0 +1,34 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <RelativeLayout style="@style/topbar_layout_style">
+
+        <Button
+            android:id="@+id/btn_back"
+            style="@style/btn_style"
+            android:layout_width="48dp"
+            android:layout_height="wrap_content"
+            android:layout_alignParentLeft="true"
+            android:layout_centerVertical="true"
+            android:text="@string/btn_back" />
+
+        <View
+            style="@style/topbar_divider_view_style"
+            android:layout_toRightOf="@+id/btn_back" />
+
+        <TextView
+            android:id="@+id/tv_title"
+            style="@style/topbar_text_style"
+            android:text="@string/title_fragment_out_money" />
+
+    </RelativeLayout>
+
+    <ListView
+        android:id="@+id/list_order"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/layout_action_bar" />
+
+</LinearLayout>

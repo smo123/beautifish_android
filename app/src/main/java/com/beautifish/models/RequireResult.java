@@ -1,0 +1,38 @@
+package com.beautifish.models;
+
+import java.io.Serializable;
+
+/**
+ * Created by jinba on 2016/7/28.
+ */
+public class RequireResult implements Serializable {
+    private static final long serialVersionUID = -5305923315442650988L;
+
+    private String status;
+    private String msg;
+    private String data;
+
+    public String getMsg() {
+        return msg;
+    }
+
+    public void setMsg(String msg) {
+        this.msg = msg;
+    }
+
+    public String getStatus() {
+        return status;
+    }
+
+    public void setStatus(String status) {
+        this.status = status;
+    }
+
+    public String getData() {
+        return data;
+    }
+
+    public void setData(String data) {
+        this.data = data;
+    }
+}
